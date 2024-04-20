@@ -50,10 +50,10 @@
 		}, 400);
 
 		setTimeout(() => {
+			disabled = false;
 			setPalette('');
 			findTerm();
 			displayResponse = false;
-			disabled = false;
 		}, 3000);
 	};
 
