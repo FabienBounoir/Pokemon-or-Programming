@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import pokemon from '$lib/data/pokemon.json';
 	import programming from '$lib/data/programming.json';
+	import { scale } from 'svelte/transition';
 
 	/**
 	 * @type {{name: string, url?: string, description?: string } | null}
@@ -9,6 +10,8 @@
 	let data = null;
 
 	let disabled = false;
+
+	let displayResponse = false;
 
 	onMount(async () => {
 		findTerm();
@@ -34,19 +37,24 @@
 	 */
 	const checkAnswer = (answer) => {
 		disabled = true;
-		if (
-			(answer === 'Pokemon' && pokemon.includes(data)) ||
-			(answer === 'Programming' && programming.includes(data))
-		) {
-			document.documentElement.style.setProperty('--background', '#CCFFCC');
-		} else {
-			document.documentElement.style.setProperty('--background', '#FFCCCC');
-		}
+		displayResponse = true;
+		setTimeout(() => {
+			if (
+				(answer === 'Pokemon' && pokemon.includes(data)) ||
+				(answer === 'Programming' && programming.includes(data))
+			) {
+				document.documentElement.style.setProperty('--background', '#59ff50');
+			} else {
+				document.documentElement.style.setProperty('--background', '#ff9494');
+			}
+		}, 400);
 
 		setTimeout(() => {
+			setPalette('');
 			findTerm();
+			displayResponse = false;
 			disabled = false;
-		}, 1000);
+		}, 3000);
 	};
 
 	/**
@@ -54,12 +62,14 @@
 	 * @param type {string}
 	 */
 	const setPalette = (type) => {
+		if (disabled) return;
+
 		if (type === 'Pokemon') {
-			document.documentElement.style.setProperty('--background', '#AEC6CF');
+			document.documentElement.style.setProperty('--background', '#fff886');
 		} else if (type === 'Programming') {
-			document.documentElement.style.setProperty('--background', '#B2EBCE');
+			document.documentElement.style.setProperty('--background', '#88dbff');
 		} else {
-			document.documentElement.style.setProperty('--background', '#F5F5DC');
+			document.documentElement.style.setProperty('--background', '#f6f6f6');
 		}
 	};
 
@@ -74,10 +84,10 @@
 </script>
 
 <section>
-	<h1>Pokemon or Programming</h1>
+	<h1>Pokemon or Programming ?</h1>
 
-	{#if data}
-		<div class="word-container">
+	{#if data && !displayResponse}
+		<div class="word-container" transition:scale={{ duration: 599 }}>
 			<h2>{formatName(data.name)}</h2>
 
 			<div class="button-container">
@@ -98,6 +108,18 @@
 			</div>
 		</div>
 	{/if}
+
+	{#if displayResponse}
+		<div class="response" in:scale={{ delay: 600 }}>
+			{#if data?.url}
+				<h2>Pokemon</h2>
+				<img src={data?.url} alt={data?.name} />
+			{:else}
+				<h2>Programming</h2>
+				<p>{data?.description}</p>
+			{/if}
+		</div>
+	{/if}
 </section>
 
 <style lang="scss">
@@ -106,10 +128,11 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 100vh;
+		height: 98dvh;
 
 		h1 {
-			margin-bottom: 20vh;
+			position: absolute;
+			top: 0;
 		}
 
 		.word-container {
@@ -117,6 +140,29 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
+		}
+
+		.response {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			h2 {
+				padding: 0;
+				margin: 0;
+			}
+
+			img {
+				image-rendering: pixelated;
+				width: 200px;
+			}
+
+			p {
+				width: min(98vw, 500px);
+				text-align: center;
+				text-wrap: balance;
+			}
 		}
 
 		button {
@@ -134,13 +180,29 @@
 		}
 
 		#pokemon {
-			background-color: #4a707f;
-			color: #ebf0f3;
+			background-color: #ffcc00;
+			transition:
+				background-color 0.3s,
+				color 0.3s;
+			color: #442304;
+
+			&:hover {
+				color: white;
+				background-color: #d19500;
+			}
 		}
 
 		#programming {
-			background-color: #15865e;
-			color: #d6f5e4;
+			background-color: #28a7ff;
+			transition:
+				background-color 0.3s,
+				color 0.3s;
+			color: #11305a;
+
+			&:hover {
+				color: white;
+				background-color: #1e90ff;
+			}
 		}
 	}
 </style>
