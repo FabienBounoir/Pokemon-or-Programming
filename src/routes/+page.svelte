@@ -23,7 +23,6 @@
 
 		if (data) {
 			while (randomData.name.toLowerCase() == data.name.toLowerCase()) {
-				console.log('randomData.name.toLowerCase()', randomData.name.toLowerCase());
 				randomData = source[Math.floor(Math.random() * source.length)];
 			}
 		}
@@ -54,7 +53,7 @@
 			setPalette('');
 			findTerm();
 			displayResponse = false;
-		}, 3000);
+		}, 6000);
 	};
 
 	/**
@@ -73,6 +72,10 @@
 		}
 	};
 
+	/**
+	 *
+	 * @param name {string}
+	 */
 	const formatName = (name) => {
 		return name
 			.toLowerCase()
