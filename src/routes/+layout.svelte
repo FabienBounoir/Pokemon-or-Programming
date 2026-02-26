@@ -5,7 +5,13 @@
 <slot />
 
 <div class="buymeacoffee">
-	<a href="https://www.buymeacoffee.com/bouns" target="_blank">
+	<a
+		href="https://www.buymeacoffee.com/bouns"
+		target="_blank"
+		rel="noopener noreferrer"
+		aria-label="Buy me a coffee"
+		title="Buy me a coffee"
+	>
 		<svg
 			width="40"
 			height="40"

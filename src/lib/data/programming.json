@@ -1,438 +1,438 @@
 [
-    {
-        "name": "variable",
-        "description": "A variable is a container for storing data values."
-    },
-    {
-        "name": "function",
-        "description": "A function is a block of organized, reusable code that is used to perform a single, related action."
-    },
-    {
-        "name": "loop",
-        "description": "A loop is a programming construct that repeats a block of code until a certain condition is met."
-    },
-    {
-        "name": "array",
-        "description": "An array is a data structure that stores a collection of elements, each identified by an index."
-    },
-    {
-        "name": "HTML",
-        "description": "HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications."
-    },
-    {
-        "name": "CSS",
-        "description": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML."
-    },
-    {
-        "name": "JavaScript",
-        "description": "JavaScript is a programming language that enables interactive web pages and is commonly used to add functionality to web applications."
-    },
-    {
-        "name": "HTTP",
-        "description": "HTTP (Hypertext Transfer Protocol) is an application layer protocol for transmitting hypermedia documents, such as HTML."
-    },
-    {
-        "name": "API",
-        "description": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other."
-    },
-    {
-        "name": "DOM",
-        "description": "The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content."
-    },
-    {
-        "name": "URL",
-        "description": "A URL (Uniform Resource Locator) is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it."
-    },
-    {
-        "name": "Ajax",
-        "description": "Ajax (Asynchronous JavaScript and XML) is a set of web development techniques used to create asynchronous web applications."
-    },
-    {
-        "name": "Bootstrap",
-        "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development."
-    },
-    {
-        "name": "CMS",
-        "description": "A Content Management System (CMS) is a software application used for creating and managing digital content, typically used for web content management."
-    },
-    {
-        "name": "DNS",
-        "description": "DNS (Domain Name System) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network."
-    },
-    {
-        "name": "SEO",
-        "description": "SEO (Search Engine Optimization) is the practice of increasing the quantity and quality of traffic to a website through organic search engine results."
-    },
-    {
-        "name": "React",
-        "description": "React is a JavaScript library for building user interfaces, developed by Facebook."
-    },
-    {
-        "name": "Angular",
-        "description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript."
-    },
-    {
-        "name": "Express",
-        "description": "Express is a fast, unopinionated, minimalist web framework for Node.js, used for building web applications and APIs."
-    },
-    {
-        "name": "Django",
-        "description": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
-    },
-    {
-        "name": "Ruby on Rails",
-        "description": "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License."
-    },
-    {
-        "name": "Flask",
-        "description": "Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to scale up to complex applications."
-    },
-    {
-        "name": "Spring",
-        "description": "Spring is an application framework and inversion of control container for the Java platform."
-    },
-    {
-        "name": "Laravel",
-        "description": "Laravel is a free, open-source PHP web framework, intended for the development of web applications following the model–view–controller architectural pattern."
-    },
-    {
-        "name": "Symfony",
-        "description": "Symfony is a set of reusable PHP components and a PHP framework for web projects."
-    },
-    {
-        "name": "CodeIgniter",
-        "description": "CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications."
-    },
-    {
-        "name": "Zend Framework",
-        "description": "Zend Framework is an open-source framework for developing web applications and services using PHP 5.6+."
-    },
-    {
-        "name": "CakePHP",
-        "description": "CakePHP is a rapid development framework for PHP that provides an extensible architecture for developing, maintaining, and deploying applications."
-    },
-    {
-        "name": "Yii",
-        "description": "Yii is a high-performance PHP framework best for developing large-scale web applications."
-    },
-    {
-        "name": "Slim",
-        "description": "Slim is a micro-framework for PHP that helps you quickly write simple yet powerful web applications and APIs."
-    },
-    {
-        "name": "Phalcon",
-        "description": "Phalcon is a full-stack PHP framework delivered as a C-extension."
-    },
-    {
-        "name": "Spring Boot",
-        "description": "Spring Boot is an open-source Java-based framework used to create a micro Service."
-    },
-    {
-        "name": "Hibernate",
-        "description": "Hibernate is an open-source object-relational mapping framework for Java. It provides a framework for mapping an object-oriented domain model to a relational database."
-    },
-    {
-        "name": "Maven",
-        "description": "Maven is a build automation tool used primarily for Java projects. It helps manage project dependencies and provides a uniform build system."
-    },
-    {
-        "name": "JUnit",
-        "description": "JUnit is a unit testing framework for the Java programming language."
-    },
-    {
-        "name": "Tomcat",
-        "description": "Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language, and Java WebSocket technologies."
-    },
-    {
-        "name": "Eclipse",
-        "description": "Eclipse is an integrated development environment (IDE) used for Java programming and other languages. It provides a comprehensive set of tools for software development."
-    },
-    {
-        "name": "JDBC",
-        "description": "JDBC (Java Database Connectivity) is an API for Java that defines how a client may access a database."
-    },
-    {
-        "name": "JavaFX",
-        "description": "JavaFX is a software platform for creating and delivering desktop applications."
-    },
-    {
-        "name": "class",
-        "description": "In Java, a class is a blueprint for creating objects. It defines the properties and behaviors that objects of the class will have."
-    },
-    {
-        "name": "method",
-        "description": "A method in Java is a collection of statements that are grouped together to perform an operation. It is associated with a class and can be called to perform a specific task."
-    },
-    {
-        "name": "variable",
-        "description": "A variable in Java is a container that holds data values. It has a name, a data type, and a value."
-    },
-    {
-        "name": "object",
-        "description": "An object in Java is an instance of a class. It has state (attributes) and behavior (methods)."
-    },
-    {
-        "name": "inheritance",
-        "description": "Inheritance in Java is the mechanism by which one class can inherit properties and behaviors from another class."
-    },
-    {
-        "name": "interface",
-        "description": "An interface in Java is a reference type that can contain only constants, method signatures, default methods, static methods, and nested types."
-    },
-    {
-        "name": "package",
-        "description": "A package in Java is a namespace that organizes a set of related classes and interfaces. It helps in avoiding naming conflicts and provides access protection."
-    },
-    {
-        "name": "constructor",
-        "description": "A constructor in Java is a special type of method that is used to initialize objects. It has the same name as the class and does not have a return type."
-    },
-    {
-        "name": "exception",
-        "description": "An exception in Java is an event that disrupts the normal flow of the program's instructions. It is thrown at runtime and can be caught and handled by the program."
-    },
-    {
-        "name": "static",
-        "description": "In Java, the static keyword is used to create variables and methods that belong to the class rather than to instances of the class."
-    },
-    {
-        "name": "Polymorphism",
-        "description": "Polymorphism in Java refers to the ability of an object to take on multiple forms. This can occur when an object is treated as an instance of its base class or one of its subclasses."
-    },
-    {
-        "name": "Encapsulation",
-        "description": "Encapsulation in Java is a mechanism for bundling the data (variables) and methods (functions) that manipulate them within a single entity, a class. This allows hiding the internal implementation of a class and protecting its data from accidental modification."
-    },
-    {
-        "name": "Inheritance",
-        "description": "Inheritance in Java is the mechanism by which a class can inherit properties and behaviors from another class. This promotes code reuse and allows for the creation of class hierarchies."
-    },
-    {
-        "name": "Interface",
-        "description": "An interface in Java is a reference type that defines a behavioral contract. It contains only method signatures, but not their implementation. Java classes can implement one or more interfaces, providing a flexible way to add functionality to a class."
-    },
-    {
-        "name": "Exception",
-        "description": "An exception in Java is an event that disrupts the normal flow of a program's instructions. Exceptions are often used to handle errors and exceptional conditions, and can be thrown and caught in the code."
-    },
-    {
-        "name": "grep",
-        "description": "The 'grep' command in Linux is used to search for patterns in files. It can be used to search for text within files, or to filter output from other commands."
-    },
-    {
-        "name": "chown",
-        "description": "The 'chown' command in Linux is used to change the owner and group of files and directories."
-    },
-    {
-        "name": "chmod",
-        "description": "The 'chmod' command in Linux is used to change the permissions of files and directories."
-    },
-    {
-        "name": "dequeue",
-        "description": "A dequeue is a double-ended queue, a data structure that allows insertion and deletion of elements from both the front and the back."
-    },
-    {
-        "name": "memoization",
-        "description": "Memoization is an optimization technique used in dynamic programming to store the results of expensive function calls and reuse them when the same inputs occur again."
-    },
-    {
-        "name": "thunk",
-        "description": "A thunk is a function that wraps an expression to delay its evaluation. Thunks are commonly used in lazy evaluation strategies."
-    },
-    {
-        "name": "currying",
-        "description": "Currying is the process of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument."
-    },
-    {
-        "name": "monad",
-        "description": "A monad is a design pattern used in functional programming to encapsulate side effects and provide a way to sequence computations in a predictable manner."
-    },
-    {
-        "name": "hoisting",
-        "description": "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation, regardless of where they are declared in the code."
-    },
-    {
-        "name": "throttling",
-        "description": "Throttling is a technique used to limit the rate at which a function can be called. It is commonly used in web development to prevent excessive requests to servers."
-    },
-    {
-        "name": "garbage collection",
-        "description": "Garbage collection is a memory management technique where the runtime system automatically deallocates memory that is no longer in use by the program."
-    },
-    {
-        "name": "closure",
-        "description": "A closure is a function that has access to its own scope, as well as the scope in which it was created. Closures are commonly used in JavaScript for data encapsulation and maintaining state."
-    },
-    {
-        "name": "futures",
-        "description": "Futures are a programming construct used to represent the result of an asynchronous computation. They provide a way to perform non-blocking operations and handle the result when it becomes available."
-    },
-    {
-        "name": "functor",
-        "description": "A functor is a function object that can be used with higher-order functions. It provides a way to encapsulate a computation or action and pass it around as a first-class object."
-    },
-    {
-        "name": "Elixir",
-        "description": "Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine (BEAM). It is known for its scalability, fault-tolerance, and expressive syntax."
-    },
-    {
-        "name": "Rust",
-        "description": "Rust is a systems programming language designed for safety, concurrency, and performance. It aims to provide memory safety without garbage collection and is often used for systems-level programming."
-    },
-    {
-        "name": "Haskell",
-        "description": "Haskell is a purely functional programming language that emphasizes laziness, modularity, and type safety. It is known for its expressive type system and powerful abstractions."
-    },
-    {
-        "name": "Clojure",
-        "description": "Clojure is a modern Lisp dialect that runs on the Java Virtual Machine (JVM). It is designed for concurrency, immutability, and interactive development, and is often used for web development and data analysis."
-    },
-    {
-        "name": "Scala",
-        "description": "Scala is a multi-paradigm programming language that combines functional and object-oriented programming features. It runs on the Java Virtual Machine (JVM) and is known for its expressive syntax and strong type system."
-    },
-    {
-        "name": "Erlang",
-        "description": "Erlang is a general-purpose, concurrent, functional programming language designed for building distributed, fault-tolerant systems. It is often used in telecommunications, banking, and other industries where reliability is critical."
-    },
-    {
-        "name": "Julia",
-        "description": "Julia is a high-level, high-performance programming language for technical computing. It is designed for numerical and scientific computing, but also supports general-purpose programming."
-    },
-    {
-        "name": "F#",
-        "description": "F# is a strongly-typed, functional-first programming language for the .NET platform. It combines the succinctness and expressiveness of functional programming with the runtime performance and interoperability of .NET."
-    },
-    {
-        "name": "Dart",
-        "description": "Dart is a client-optimized programming language for building web, server, and mobile applications. It is developed by Google and is known for its fast performance and ease of learning."
-    },
-    {
-        "name": "Nim",
-        "description": "Nim is a systems programming language that combines efficiency, expressiveness, and elegance. It is designed for writing efficient, maintainable code and has features inspired by Python, Ada, and Lisp."
-    },
-    {
-        "name": "Factor",
-        "description": "Factor is a stack-based, concatenative programming language with a focus on practicality and expressiveness. It is designed for rapid development and high performance, and is often used for scripting and automation tasks."
-    },
-    {
-        "name": "Kotlin",
-        "description": "Kotlin is a statically-typed programming language that runs on the Java Virtual Machine (JVM) and can also be compiled to JavaScript or native code. It is known for its concise syntax, null safety, and interoperability with Java."
-    },
-    {
-        "name": "Crystal",
-        "description": "Crystal is a statically-typed, compiled programming language with syntax inspired by Ruby. It aims to combine the elegance and expressiveness of Ruby with the performance and efficiency of a compiled language."
-    },
-    {
-        "name": "Prolog",
-        "description": "Prolog is a logic programming language that is particularly well-suited for tasks that involve symbolic computation and artificial intelligence. It is based on a formal system of mathematical logic and is often used in expert systems and natural language processing."
-    },
-    {
-        "name": "Racket",
-        "description": "Racket is a general-purpose, multi-paradigm programming language that is particularly well-suited for language-oriented programming. It provides a rich set of tools for creating domain-specific languages and experimenting with new language designs."
-    },
-    {
-        "name": "Eiffel",
-        "description": "Eiffel is an object-oriented programming language designed for software engineering. It emphasizes the principles of design by contract, object-oriented analysis and design, and reusable software components."
-    },
-    {
-        "name": "Io",
-        "description": "Io is a small, prototype-based programming language inspired by Smalltalk and Lisp. It features a simple syntax, dynamic typing, and reflective capabilities, and is often used for scripting and rapid prototyping."
-    },
-    {
-        "name": "Tcl",
-        "description": "Tcl (Tool Command Language) is a dynamic scripting language commonly used for automation, testing, and rapid prototyping. It is known for its simplicity, extensibility, and wide range of built-in libraries."
-    },
-    {
-        "name": "Factor",
-        "description": "Factor is a stack-based, concatenative programming language with a focus on practicality and expressiveness. It is designed for rapid development and high performance, and is often used for scripting and automation tasks."
-    },
-    {
-        "name": "Dylan",
-        "description": "Dylan is a multi-paradigm programming language that combines the power of functional programming with the flexibility of object-oriented programming. It is designed for ease of use, expressiveness, and scalability."
-    },
-    {
-        "name": "Mercury",
-        "description": "Mercury is a logic/functional programming language that combines the declarative features of logic programming with the expressive power of functional programming. It is designed for high-performance and reliability-critical applications."
-    },
-    {
-        "name": "Pony",
-        "description": "Pony is an object-oriented, actor-model programming language that emphasizes safety, performance, and concurrency. It is designed for building concurrent and distributed systems with ease."
-    },
-    {
-        "name": "Nim",
-        "description": "Nim is a statically typed, compiled programming language with a focus on efficiency, expressiveness, and readability. It is designed to be easy to learn and use, while also providing powerful features for systems programming."
-    },
-    {
-        "name": "Haxe",
-        "description": "Haxe is a cross-platform, open-source programming language that can be compiled to multiple target languages and platforms, including JavaScript, Flash, C++, and Python. It is known for its flexibility and versatility."
-    },
-    {
-        "name": "Julia",
-        "description": "Julia is a high-level, high-performance programming language for technical computing. It is designed for numerical and scientific computing, but also supports general-purpose programming."
-    },
-    {
-        "name": "Elm",
-        "description": "Elm is a functional programming language for building web applications. It compiles to JavaScript and is designed to produce reliable and maintainable code through strong static typing and pure functions."
-    },
-    {
-        "name": "Eiffel",
-        "description": "Eiffel is an object-oriented programming language designed for software engineering. It emphasizes the principles of design by contract, object-oriented analysis and design, and reusable software components."
-    },
-    {
-        "name": "Factor",
-        "description": "Factor is a stack-based, concatenative programming language with a focus on practicality and expressiveness. It is designed for rapid development and high performance, and is often used for scripting and automation tasks."
-    },
-    {
-        "name": "Neko",
-        "description": "Neko is a high-level, dynamically-typed programming language and virtual machine. It is designed for building scalable and efficient applications, and is often used as a scripting language in game development."
-    },
-    {
-        "name": "Red",
-        "description": "Red is a programming language and runtime system designed for simplicity, reliability, and productivity. It is inspired by Rebol and is designed to be easy to learn and use for both beginners and experienced developers."
-    },
-    {
-        "name": "SvelteKit",
-        "description": "SvelteKit is a framework for building web applications with Svelte and server-side rendering. It provides a powerful and intuitive way to build fast, reactive web apps with minimal boilerplate."
-    },
-    {
-        "name": "Remix",
-        "description": "Remix is a React framework for building modern web applications with a focus on performance, developer experience, and scalability. It provides features like server rendering, route-based code splitting, and data loading."
-    },
-    {
-        "name": "Gatsby",
-        "description": "Gatsby is a React-based framework for building blazing fast websites and applications. It leverages modern web technologies like GraphQL, Webpack, and React to generate static sites with dynamic capabilities."
-    },
-    {
-        "name": "Opcode",
-        "description": "An opcode (operation code) is a unique code that represents a specific instruction in machine language or assembly language."
-    },
-    {
-        "name": "Stack",
-        "description": "A stack is a data structure that stores data in a last-in, first-out (LIFO) manner. It is commonly used for storing return addresses and local variables in assembly language programs."
-    },
-    {
-        "name": "Lambda",
-        "description": "In programming, a lambda function (or lambda expression) is a small anonymous function that is defined inline and can be passed as an argument to higher-order functions or stored in variables."
-    },
-    {
-        "name": "Singleton",
-        "description": "In software engineering, the singleton pattern is a design pattern that restricts the instantiation of a class to a single instance. It is commonly used to provide global access to a single resource or service."
-    },
-    {
-        "name": "Mocking",
-        "description": "Mocking is a testing technique used to simulate the behavior of objects or components that a software module depends on. It is often used in unit testing to isolate the module being tested from its dependencies."
-    },
-    {
-        "name": "Sharding",
-        "description": "Sharding is a database partitioning technique that splits large databases into smaller, more manageable parts called shards. Each shard contains a subset of the data, allowing for horizontal scalability and improved performance."
-    },
-    {
-        "name": "Babel",
-        "description": "Babel is a JavaScript compiler that allows developers to use next-generation JavaScript (ES6+) syntax and features, and transpile them into code that can run in current JavaScript environments."
-    },
-    {
-        "name": "Docker",
-        "description": "Docker is a platform for developing, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient environments that encapsulate everything needed to run an application."
-    }
+	{
+		"name": "variable",
+		"description": "A variable is a container for storing data values."
+	},
+	{
+		"name": "function",
+		"description": "A function is a block of organized, reusable code that is used to perform a single, related action."
+	},
+	{
+		"name": "loop",
+		"description": "A loop is a programming construct that repeats a block of code until a certain condition is met."
+	},
+	{
+		"name": "array",
+		"description": "An array is a data structure that stores a collection of elements, each identified by an index."
+	},
+	{
+		"name": "HTML",
+		"description": "HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications."
+	},
+	{
+		"name": "CSS",
+		"description": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML."
+	},
+	{
+		"name": "JavaScript",
+		"description": "JavaScript is a programming language that enables interactive web pages and is commonly used to add functionality to web applications."
+	},
+	{
+		"name": "HTTP",
+		"description": "HTTP (Hypertext Transfer Protocol) is an application layer protocol for transmitting hypermedia documents, such as HTML."
+	},
+	{
+		"name": "API",
+		"description": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other."
+	},
+	{
+		"name": "DOM",
+		"description": "The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content."
+	},
+	{
+		"name": "URL",
+		"description": "A URL (Uniform Resource Locator) is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it."
+	},
+	{
+		"name": "Ajax",
+		"description": "Ajax (Asynchronous JavaScript and XML) is a set of web development techniques used to create asynchronous web applications."
+	},
+	{
+		"name": "Bootstrap",
+		"description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development."
+	},
+	{
+		"name": "CMS",
+		"description": "A Content Management System (CMS) is a software application used for creating and managing digital content, typically used for web content management."
+	},
+	{
+		"name": "DNS",
+		"description": "DNS (Domain Name System) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network."
+	},
+	{
+		"name": "SEO",
+		"description": "SEO (Search Engine Optimization) is the practice of increasing the quantity and quality of traffic to a website through organic search engine results."
+	},
+	{
+		"name": "React",
+		"description": "React is a JavaScript library for building user interfaces, developed by Facebook."
+	},
+	{
+		"name": "Angular",
+		"description": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript."
+	},
+	{
+		"name": "Express",
+		"description": "Express is a fast, unopinionated, minimalist web framework for Node.js, used for building web applications and APIs."
+	},
+	{
+		"name": "Django",
+		"description": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
+	},
+	{
+		"name": "Ruby on Rails",
+		"description": "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License."
+	},
+	{
+		"name": "Flask",
+		"description": "Flask is a lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to scale up to complex applications."
+	},
+	{
+		"name": "Spring",
+		"description": "Spring is an application framework and inversion of control container for the Java platform."
+	},
+	{
+		"name": "Laravel",
+		"description": "Laravel is a free, open-source PHP web framework, intended for the development of web applications following the model–view–controller architectural pattern."
+	},
+	{
+		"name": "Symfony",
+		"description": "Symfony is a set of reusable PHP components and a PHP framework for web projects."
+	},
+	{
+		"name": "CodeIgniter",
+		"description": "CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications."
+	},
+	{
+		"name": "Zend Framework",
+		"description": "Zend Framework is an open-source framework for developing web applications and services using PHP 5.6+."
+	},
+	{
+		"name": "CakePHP",
+		"description": "CakePHP is a rapid development framework for PHP that provides an extensible architecture for developing, maintaining, and deploying applications."
+	},
+	{
+		"name": "Yii",
+		"description": "Yii is a high-performance PHP framework best for developing large-scale web applications."
+	},
+	{
+		"name": "Slim",
+		"description": "Slim is a micro-framework for PHP that helps you quickly write simple yet powerful web applications and APIs."
+	},
+	{
+		"name": "Phalcon",
+		"description": "Phalcon is a full-stack PHP framework delivered as a C-extension."
+	},
+	{
+		"name": "Spring Boot",
+		"description": "Spring Boot is an open-source Java-based framework used to create a micro Service."
+	},
+	{
+		"name": "Hibernate",
+		"description": "Hibernate is an open-source object-relational mapping framework for Java. It provides a framework for mapping an object-oriented domain model to a relational database."
+	},
+	{
+		"name": "Maven",
+		"description": "Maven is a build automation tool used primarily for Java projects. It helps manage project dependencies and provides a uniform build system."
+	},
+	{
+		"name": "JUnit",
+		"description": "JUnit is a unit testing framework for the Java programming language."
+	},
+	{
+		"name": "Tomcat",
+		"description": "Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language, and Java WebSocket technologies."
+	},
+	{
+		"name": "Eclipse",
+		"description": "Eclipse is an integrated development environment (IDE) used for Java programming and other languages. It provides a comprehensive set of tools for software development."
+	},
+	{
+		"name": "JDBC",
+		"description": "JDBC (Java Database Connectivity) is an API for Java that defines how a client may access a database."
+	},
+	{
+		"name": "JavaFX",
+		"description": "JavaFX is a software platform for creating and delivering desktop applications."
+	},
+	{
+		"name": "class",
+		"description": "In Java, a class is a blueprint for creating objects. It defines the properties and behaviors that objects of the class will have."
+	},
+	{
+		"name": "method",
+		"description": "A method in Java is a collection of statements that are grouped together to perform an operation. It is associated with a class and can be called to perform a specific task."
+	},
+	{
+		"name": "variable",
+		"description": "A variable in Java is a container that holds data values. It has a name, a data type, and a value."
+	},
+	{
+		"name": "object",
+		"description": "An object in Java is an instance of a class. It has state (attributes) and behavior (methods)."
+	},
+	{
+		"name": "inheritance",
+		"description": "Inheritance in Java is the mechanism by which one class can inherit properties and behaviors from another class."
+	},
+	{
+		"name": "interface",
+		"description": "An interface in Java is a reference type that can contain only constants, method signatures, default methods, static methods, and nested types."
+	},
+	{
+		"name": "package",
+		"description": "A package in Java is a namespace that organizes a set of related classes and interfaces. It helps in avoiding naming conflicts and provides access protection."
+	},
+	{
+		"name": "constructor",
+		"description": "A constructor in Java is a special type of method that is used to initialize objects. It has the same name as the class and does not have a return type."
+	},
+	{
+		"name": "exception",
+		"description": "An exception in Java is an event that disrupts the normal flow of the program's instructions. It is thrown at runtime and can be caught and handled by the program."
+	},
+	{
+		"name": "static",
+		"description": "In Java, the static keyword is used to create variables and methods that belong to the class rather than to instances of the class."
+	},
+	{
+		"name": "Polymorphism",
+		"description": "Polymorphism in Java refers to the ability of an object to take on multiple forms. This can occur when an object is treated as an instance of its base class or one of its subclasses."
+	},
+	{
+		"name": "Encapsulation",
+		"description": "Encapsulation in Java is a mechanism for bundling the data (variables) and methods (functions) that manipulate them within a single entity, a class. This allows hiding the internal implementation of a class and protecting its data from accidental modification."
+	},
+	{
+		"name": "Inheritance",
+		"description": "Inheritance in Java is the mechanism by which a class can inherit properties and behaviors from another class. This promotes code reuse and allows for the creation of class hierarchies."
+	},
+	{
+		"name": "Interface",
+		"description": "An interface in Java is a reference type that defines a behavioral contract. It contains only method signatures, but not their implementation. Java classes can implement one or more interfaces, providing a flexible way to add functionality to a class."
+	},
+	{
+		"name": "Exception",
+		"description": "An exception in Java is an event that disrupts the normal flow of a program's instructions. Exceptions are often used to handle errors and exceptional conditions, and can be thrown and caught in the code."
+	},
+	{
+		"name": "grep",
+		"description": "The 'grep' command in Linux is used to search for patterns in files. It can be used to search for text within files, or to filter output from other commands."
+	},
+	{
+		"name": "chown",
+		"description": "The 'chown' command in Linux is used to change the owner and group of files and directories."
+	},
+	{
+		"name": "chmod",
+		"description": "The 'chmod' command in Linux is used to change the permissions of files and directories."
+	},
+	{
+		"name": "dequeue",
+		"description": "A dequeue is a double-ended queue, a data structure that allows insertion and deletion of elements from both the front and the back."
+	},
+	{
+		"name": "memoization",
+		"description": "Memoization is an optimization technique used in dynamic programming to store the results of expensive function calls and reuse them when the same inputs occur again."
+	},
+	{
+		"name": "thunk",
+		"description": "A thunk is a function that wraps an expression to delay its evaluation. Thunks are commonly used in lazy evaluation strategies."
+	},
+	{
+		"name": "currying",
+		"description": "Currying is the process of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument."
+	},
+	{
+		"name": "monad",
+		"description": "A monad is a design pattern used in functional programming to encapsulate side effects and provide a way to sequence computations in a predictable manner."
+	},
+	{
+		"name": "hoisting",
+		"description": "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation, regardless of where they are declared in the code."
+	},
+	{
+		"name": "throttling",
+		"description": "Throttling is a technique used to limit the rate at which a function can be called. It is commonly used in web development to prevent excessive requests to servers."
+	},
+	{
+		"name": "garbage collection",
+		"description": "Garbage collection is a memory management technique where the runtime system automatically deallocates memory that is no longer in use by the program."
+	},
+	{
+		"name": "closure",
+		"description": "A closure is a function that has access to its own scope, as well as the scope in which it was created. Closures are commonly used in JavaScript for data encapsulation and maintaining state."
+	},
+	{
+		"name": "futures",
+		"description": "Futures are a programming construct used to represent the result of an asynchronous computation. They provide a way to perform non-blocking operations and handle the result when it becomes available."
+	},
+	{
+		"name": "functor",
+		"description": "A functor is a function object that can be used with higher-order functions. It provides a way to encapsulate a computation or action and pass it around as a first-class object."
+	},
+	{
+		"name": "Elixir",
+		"description": "Elixir is a functional, concurrent, general-purpose programming language that runs on the Erlang virtual machine (BEAM). It is known for its scalability, fault-tolerance, and expressive syntax."
+	},
+	{
+		"name": "Rust",
+		"description": "Rust is a systems programming language designed for safety, concurrency, and performance. It aims to provide memory safety without garbage collection and is often used for systems-level programming."
+	},
+	{
+		"name": "Haskell",
+		"description": "Haskell is a purely functional programming language that emphasizes laziness, modularity, and type safety. It is known for its expressive type system and powerful abstractions."
+	},
+	{
+		"name": "Clojure",
+		"description": "Clojure is a modern Lisp dialect that runs on the Java Virtual Machine (JVM). It is designed for concurrency, immutability, and interactive development, and is often used for web development and data analysis."
+	},
+	{
+		"name": "Scala",
+		"description": "Scala is a multi-paradigm programming language that combines functional and object-oriented programming features. It runs on the Java Virtual Machine (JVM) and is known for its expressive syntax and strong type system."
+	},
+	{
+		"name": "Erlang",
+		"description": "Erlang is a general-purpose, concurrent, functional programming language designed for building distributed, fault-tolerant systems. It is often used in telecommunications, banking, and other industries where reliability is critical."
+	},
+	{
+		"name": "Julia",
+		"description": "Julia is a high-level, high-performance programming language for technical computing. It is designed for numerical and scientific computing, but also supports general-purpose programming."
+	},
+	{
+		"name": "F#",
+		"description": "F# is a strongly-typed, functional-first programming language for the .NET platform. It combines the succinctness and expressiveness of functional programming with the runtime performance and interoperability of .NET."
+	},
+	{
+		"name": "Dart",
+		"description": "Dart is a client-optimized programming language for building web, server, and mobile applications. It is developed by Google and is known for its fast performance and ease of learning."
+	},
+	{
+		"name": "Nim",
+		"description": "Nim is a systems programming language that combines efficiency, expressiveness, and elegance. It is designed for writing efficient, maintainable code and has features inspired by Python, Ada, and Lisp."
+	},
+	{
+		"name": "Factor",
+		"description": "Factor is a stack-based, concatenative programming language with a focus on practicality and expressiveness. It is designed for rapid development and high performance, and is often used for scripting and automation tasks."
+	},
+	{
+		"name": "Kotlin",
+		"description": "Kotlin is a statically-typed programming language that runs on the Java Virtual Machine (JVM) and can also be compiled to JavaScript or native code. It is known for its concise syntax, null safety, and interoperability with Java."
+	},
+	{
+		"name": "Crystal",
+		"description": "Crystal is a statically-typed, compiled programming language with syntax inspired by Ruby. It aims to combine the elegance and expressiveness of Ruby with the performance and efficiency of a compiled language."
+	},
+	{
+		"name": "Prolog",
+		"description": "Prolog is a logic programming language that is particularly well-suited for tasks that involve symbolic computation and artificial intelligence. It is based on a formal system of mathematical logic and is often used in expert systems and natural language processing."
+	},
+	{
+		"name": "Racket",
+		"description": "Racket is a general-purpose, multi-paradigm programming language that is particularly well-suited for language-oriented programming. It provides a rich set of tools for creating domain-specific languages and experimenting with new language designs."
+	},
+	{
+		"name": "Eiffel",
+		"description": "Eiffel is an object-oriented programming language designed for software engineering. It emphasizes the principles of design by contract, object-oriented analysis and design, and reusable software components."
+	},
+	{
+		"name": "Io",
+		"description": "Io is a small, prototype-based programming language inspired by Smalltalk and Lisp. It features a simple syntax, dynamic typing, and reflective capabilities, and is often used for scripting and rapid prototyping."
+	},
+	{
+		"name": "Tcl",
+		"description": "Tcl (Tool Command Language) is a dynamic scripting language commonly used for automation, testing, and rapid prototyping. It is known for its simplicity, extensibility, and wide range of built-in libraries."
+	},
+	{
+		"name": "Factor",
+		"description": "Factor is a stack-based, concatenative programming language with a focus on practicality and expressiveness. It is designed for rapid development and high performance, and is often used for scripting and automation tasks."
+	},
+	{
+		"name": "Dylan",
+		"description": "Dylan is a multi-paradigm programming language that combines the power of functional programming with the flexibility of object-oriented programming. It is designed for ease of use, expressiveness, and scalability."
+	},
+	{
+		"name": "Mercury",
+		"description": "Mercury is a logic/functional programming language that combines the declarative features of logic programming with the expressive power of functional programming. It is designed for high-performance and reliability-critical applications."
+	},
+	{
+		"name": "Pony",
+		"description": "Pony is an object-oriented, actor-model programming language that emphasizes safety, performance, and concurrency. It is designed for building concurrent and distributed systems with ease."
+	},
+	{
+		"name": "Nim",
+		"description": "Nim is a statically typed, compiled programming language with a focus on efficiency, expressiveness, and readability. It is designed to be easy to learn and use, while also providing powerful features for systems programming."
+	},
+	{
+		"name": "Haxe",
+		"description": "Haxe is a cross-platform, open-source programming language that can be compiled to multiple target languages and platforms, including JavaScript, Flash, C++, and Python. It is known for its flexibility and versatility."
+	},
+	{
+		"name": "Julia",
+		"description": "Julia is a high-level, high-performance programming language for technical computing. It is designed for numerical and scientific computing, but also supports general-purpose programming."
+	},
+	{
+		"name": "Elm",
+		"description": "Elm is a functional programming language for building web applications. It compiles to JavaScript and is designed to produce reliable and maintainable code through strong static typing and pure functions."
+	},
+	{
+		"name": "Eiffel",
+		"description": "Eiffel is an object-oriented programming language designed for software engineering. It emphasizes the principles of design by contract, object-oriented analysis and design, and reusable software components."
+	},
+	{
+		"name": "Factor",
+		"description": "Factor is a stack-based, concatenative programming language with a focus on practicality and expressiveness. It is designed for rapid development and high performance, and is often used for scripting and automation tasks."
+	},
+	{
+		"name": "Neko",
+		"description": "Neko is a high-level, dynamically-typed programming language and virtual machine. It is designed for building scalable and efficient applications, and is often used as a scripting language in game development."
+	},
+	{
+		"name": "Red",
+		"description": "Red is a programming language and runtime system designed for simplicity, reliability, and productivity. It is inspired by Rebol and is designed to be easy to learn and use for both beginners and experienced developers."
+	},
+	{
+		"name": "SvelteKit",
+		"description": "SvelteKit is a framework for building web applications with Svelte and server-side rendering. It provides a powerful and intuitive way to build fast, reactive web apps with minimal boilerplate."
+	},
+	{
+		"name": "Remix",
+		"description": "Remix is a React framework for building modern web applications with a focus on performance, developer experience, and scalability. It provides features like server rendering, route-based code splitting, and data loading."
+	},
+	{
+		"name": "Gatsby",
+		"description": "Gatsby is a React-based framework for building blazing fast websites and applications. It leverages modern web technologies like GraphQL, Webpack, and React to generate static sites with dynamic capabilities."
+	},
+	{
+		"name": "Opcode",
+		"description": "An opcode (operation code) is a unique code that represents a specific instruction in machine language or assembly language."
+	},
+	{
+		"name": "Stack",
+		"description": "A stack is a data structure that stores data in a last-in, first-out (LIFO) manner. It is commonly used for storing return addresses and local variables in assembly language programs."
+	},
+	{
+		"name": "Lambda",
+		"description": "In programming, a lambda function (or lambda expression) is a small anonymous function that is defined inline and can be passed as an argument to higher-order functions or stored in variables."
+	},
+	{
+		"name": "Singleton",
+		"description": "In software engineering, the singleton pattern is a design pattern that restricts the instantiation of a class to a single instance. It is commonly used to provide global access to a single resource or service."
+	},
+	{
+		"name": "Mocking",
+		"description": "Mocking is a testing technique used to simulate the behavior of objects or components that a software module depends on. It is often used in unit testing to isolate the module being tested from its dependencies."
+	},
+	{
+		"name": "Sharding",
+		"description": "Sharding is a database partitioning technique that splits large databases into smaller, more manageable parts called shards. Each shard contains a subset of the data, allowing for horizontal scalability and improved performance."
+	},
+	{
+		"name": "Babel",
+		"description": "Babel is a JavaScript compiler that allows developers to use next-generation JavaScript (ES6+) syntax and features, and transpile them into code that can run in current JavaScript environments."
+	},
+	{
+		"name": "Docker",
+		"description": "Docker is a platform for developing, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient environments that encapsulate everything needed to run an application."
+	}
 ]
